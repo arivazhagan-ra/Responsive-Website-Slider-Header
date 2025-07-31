@@ -9,16 +9,12 @@ html,body{
   background: linear-gradient(130deg,#2b2b2b,#a593ed,#dcd6f7);
 
 }
-main{
-  /* height: 100dvh; */
-}
+
 header{
-  /* border-style: solid; */
   transition: all .2s ease;
   padding: 15px 30px 0 30px;
 }
 header nav{
-  /* border-style: solid; */
   display: flex;
   justify-content: space-between;
 }
@@ -26,11 +22,9 @@ header nav{
 header nav .logo{
   font-family: "Edu QLD Hand", cursive;
   font-optical-sizing: auto;
-  /* font-weight: <weight>; */
   font-style: normal;
   text-decoration: none;
   font-size: 1.4em;
-  /* background-color: white; */
   text-align: center;
   margin: 10px 20px;
   color: #dcd6f7;
@@ -60,8 +54,6 @@ header nav ul li a{
   color: #dcd6f7;
 }
 .btn-div{
-  /* border-style: solid; */
-  /* margin: 10px 20px; */
   width: 300px;
   display: flex;
   align-items: center;
@@ -82,17 +74,14 @@ box-shadow:  7px -7px 42px #716a8d,
              transition: .2s ease-in;
 }
 .btn-div button:hover{
-  /* border-radius: 54px; */
 background: linear-gradient(225deg, #9289b5, #ada3d7);
 box-shadow:  3px 0px 10px #413d50,
              0px 0px 10px #fff3ff;
-             /* border: none; */
 }
 
 .grid-div{
   display: grid;
   grid-template-columns: 560px 1fr;
-  /* border-style: solid; */
   width: 1200px;
   margin: 50px auto;
   column-gap: 30px;
@@ -100,10 +89,8 @@ box-shadow:  3px 0px 10px #413d50,
   text-align: left;
   padding: 30px 30px;
   box-shadow: 0 0 10px #2b2b2b ;
-  /* height: 98dvh; */
 }
 article{
-  /* border-style: solid; */
   position: relative;
 }
 
@@ -118,11 +105,7 @@ article{
   text-align: center;
   color: #d8d7de;
   cursor: default;
-  text-shadow:5px 5px 5px #b8b6c3;
-  /* padding: 0 0 0 60px; */
-  /* text-align: center; */
-  /* border-style: solid; */
-  
+  text-shadow:5px 5px 5px #b8b6c3;  
 }
 .grid-div article .topic{
    font-family: "Roboto Mono", monospace;
@@ -140,7 +123,6 @@ article{
   padding: 10px 0 20px 10px;
 }
 .grid-div article .grid-btn-div{
-  /* border-style: solid; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -163,26 +145,19 @@ article{
 .grid-div article .grid-btn-div button:hover{
   background-color: #413d50;
   box-shadow: 0px 0px 5px #2d2c31;
-  /* font-size: .9em; */
-  /* padding: 20px 30px; */
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
 }
 .social-icons-div{
-  /* border-style: solid; */
-  /* width: 200px; */
-  /* height: 200px; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-   /* padding: 15px; */
   margin: 30px 20px 0 0;
 }
 ion-icon{
   font-size: 1.6em;
   cursor: pointer;
   transition: all .2s ease-in-out;
-  /* border-style: solid; */
   margin: 10px 20px 10px 10px;
 }
 ion-icon:hover{
@@ -200,11 +175,7 @@ ion-icon:hover{
   z-index: 0;
   pointer-events: none;
   animation:spin 3s linear infinite;
-  /* border-style: solid;
-  box-shadow: 10px 10px 10px #2b2b2b; */
 }
-
-/* swiper styles */
 .swiper-slide {
   position: relative;
   z-index: 2;
@@ -213,7 +184,6 @@ ion-icon:hover{
     .swiper {
       width: 240px;
       height: 320px;
-      /* border-style: solid; */
       position: relative;
       z-index: 1;
     }
@@ -226,14 +196,12 @@ ion-icon:hover{
       font-size: 22px;
       font-weight: bold;
       color: #fff;
-      /* border-style: solid; */
     }
     .swiper-slide img{
       height: 100%;
       width: 100%;
       object-fit: cover;
       object-position: top;
-      /* filter:blur(10px); */
     }
 
     /*media queries  */
@@ -316,7 +284,6 @@ ion-icon:hover{
   }
   .btn-div{
     align-items: center;
-    /* border-style: solid; */
     width: 100%;
     margin: 0 0 0 0;
     justify-content: space-evenly;
