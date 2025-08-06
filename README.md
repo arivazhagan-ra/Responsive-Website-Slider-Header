@@ -22,11 +22,4 @@ A responsive HTML, CSS, and JavaScript project featuring a modern website header
 1. Clone this repository  
 2. Open `index.html` in your browser  
 
-## 👨‍💻 Author
 
-R. Arivazhagan  
-[GitHub Profile](https://github.com/arivazhagan-ra)
-
-## 📄 License
-
-This project is licensed under the MIT License.
